@@ -1,0 +1,10 @@
+.contact-us {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333; 
+}
+
+.contact-us h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}

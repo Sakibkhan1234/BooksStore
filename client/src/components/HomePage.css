@@ -1,0 +1,67 @@
+.homepage {
+    padding: 20px;
+}
+
+.featured-books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book-card {
+    background-color: #f8f8f8;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    width: 30%;
+    margin: 15px 0;
+    text-align: center; 
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.book-card img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+    height: auto;
+}
+
+.book-card h3 {
+    color: #333;
+}
+
+.book-card p {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+}
+
+.book-card .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #388e3c;
+    text-align: center; 
+}
+
+.des-text {
+    text-decoration: none;
+    text-align: left;
+    padding-left: 15px;
+    margin: 0;
+    text-indent: 0;
+    word-break: break-word;
+    display: block;
+    line-height: 1.5;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+.book-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
